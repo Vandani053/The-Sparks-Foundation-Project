@@ -1,0 +1,65 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#home{
+    height: 500px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 600px; 
+}
+
+#home p{
+    font-size: 14px;
+}
+
+/* About section  */
+.about{
+    flex-direction:column;
+}
+
+#about .box { 
+    padding: 14px;
+    margin: 10px; 
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#contact-box form{
+    width:80%;
+}
+
+@media screen and (max-width: 695px) {
+    #home {
+     height: 475px;
+     padding:80px 10px; 
+    }
+    #home::before {
+        height: 720px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    #home {
+     height: 475px;
+     padding:84px 10px; 
+    }
+    #home::before {
+        height: 740px;
+    }
+  }
+
+/* Utility classes */
+.h-primary{
+    font-size: 3rem;
+    padding: 30px;
+}
